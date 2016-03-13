@@ -14,11 +14,44 @@ body{
 	background-color: rgba(239, 241, 244, 0.81);
 }
 .header{
-	height: 10%;
+	padding-top:10%; 
+	height: 30%;
+	text-align: center;
+}
+.header img{
+	width: 20em;
+	height: auto;
+	text-align: center;
+	margin-bottom: 10%;
+}
+.header a{
+	margin-top: 20%;
+	color: rgba(95,192,251,0.81);
+	text-decoration: none;
 }
 .middle{
-	height: 80%;
+	height: 20%;
+}
+.middle .row1{
+	width: 100%;
+}
+.middle .row1 li{
+	float: left;
+	margin:5%;
+	list-style-type: none;
+}
+.middle .row1 li a{
+	color: black;
+	text-decoration: none;
 }
 .footer{
 	height: 10%;
+}
+.footer .row2{
+	width: 100%;
+}
+.footer .row2 li{
+	float: left;
+	margin:5%;
+	list-style-type: none;
 }
