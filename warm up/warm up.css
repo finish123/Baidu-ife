@@ -1,0 +1,24 @@
+ls -a*{outline:none;font-family:"Helvetica";color:#fff;}
+body,header,div,ul,ol,dl,li,h1,h2,h3,h4,h5,h6,dt,dd,img,a,span,p,table,td,i,input,button,textarea,form,input,button{padding:0;margin:0;border:none;}
+html{
+	height: 100%;
+	font-size: 125%;
+}
+body{
+	height: 100%;
+	overflow: hidden;
+}
+.viewport{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(239, 241, 244, 0.81);
+}
+.header{
+	height: 10%;
+}
+.middle{
+	height: 80%;
+}
+.footer{
+	height: 10%;
+}
